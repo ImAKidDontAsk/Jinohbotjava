@@ -16,6 +16,12 @@
     </repositories>
     <dependencies>
         <dependency>
+            <groupId>org.javacord</groupId>
+            <artifactId>javacord</artifactId>
+            <version>3.3.0</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
             <version>4.2.1_264</version>
