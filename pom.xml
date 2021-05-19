@@ -7,12 +7,18 @@
     <groupId>groupId</groupId>
     <artifactId>jinohbotJava</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <repositories>
+    <repository>
+        <id>dv8tion</id>
+        <name>m2-dv8tion</name>
+        <url>https://m2.dv8tion.net/releases</url>
+    </repository>
+    </repositories>
     <dependencies>
         <dependency>
-            <groupId>org.javacord</groupId>
-            <artifactId>javacord</artifactId>
-            <version>3.3.0</version>
-            <type>pom</type>
+            <groupId>net.dv8tion</groupId>
+            <artifactId>JDA</artifactId>
+            <version>4.2.1_264</version>
         </dependency>
     </dependencies>
 
