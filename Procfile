@@ -1,1 +1,1 @@
-worker: java -jar jinohbotJava.jar
+worker: sh jinohbotJava.jar
