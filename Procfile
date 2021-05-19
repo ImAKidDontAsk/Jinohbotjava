@@ -1,1 +1,1 @@
-worker: sh jinohbotJava.jar
+worker: java target/classes/main.class
